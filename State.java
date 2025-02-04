@@ -12,8 +12,6 @@ public abstract class State {
 
     public void setTax(SalesTaxBehavior tax) { this.tax = tax; }
 
-    public SalesTaxBehavior getTax() { return tax; }
-
     /**
      * Prints out the tax of the value inputted to the console for the State
      * @param value amount of money being taxed
